@@ -1,21 +1,27 @@
-1. Use a Jupyter Notebook and pandas to grab the table of the host cities for the Olympics from https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities as a DataFrame.
+# Module 3 Week 1 Graded Lab directions
+
+### Using pandas
+
+1. Use a pandas's convenience function to grab the table of the host cities for the Olympics from https://en.wikipedia.org/wiki/List_of_Olympic_Games_host_cities as a DataFrame.
 
 2. Use the DataFrame API to complete the following queries.
-
+---
 1. What years were the Olympics hosted in 
-a) the United States? 
-b) Japan? 
-c) France?
+	- a) the United States? 
+	- b) Japan? 
+	- c) France?
 
 2. How many times were the Olympics hosted in
-a) Europe?
-b) Asia?
-c) South America?
+	- a) Europe?
+	- b) Asia?
+	- c) South America?
 
 3. How many times were the Olympics hosted in
-a) the United States before 1990? After 1990?
-b) the United Kingdom before 1990? After 1990?
-c) Italy before 1990? After 1990?
+- a) the United States before 1990? After 1990?
+- b) the United Kingdom before 1990? After 1990?
+- c) Italy before 1990? After 1990?
+---
+### Using BeautifulSoup
 
 3. Use BeautifulSoup to create a soup for the HTML document in `data.html`. (You will need to read in the string from the file, for example using [Python's open function](https://docs.python.org/3/library/functions.html#open).)
 
@@ -31,4 +37,4 @@ c) Italy before 1990? After 1990?
 
 9. Use a for loop to iterate through each weather forecast panel -- identifiable from the class `forecast-tombstone` -- from the element in (8), and print out the text from selecting one each of the elements in that panel that match the `period-name`, `short-desc`, and `temp` classes, respectively.
 
-10. Instantiate an empty list before your for loop, and append a list of the values obtained in the body of each for loop iteration to it. At the end, use the list of lists to create a DataFrame and show the head of the DataFrame. (See slide 32 for an example).
+10. Instantiate an empty list before your for loop, and append a list of the values obtained in the body of each for loop iteration to it. At the end, use the list of lists to create a DataFrame and show the head of the DataFrame. (See lecture slide 32 for an example).
