@@ -8,7 +8,7 @@
 
 2. Use the DataFrame API to complete the following queries.
 ---
-1. What years were the Olympics hosted in 
+1. How many times were the Olympics hosted in 
 	- a) the United States? 
 	- b) Japan? 
 	- c) France?
