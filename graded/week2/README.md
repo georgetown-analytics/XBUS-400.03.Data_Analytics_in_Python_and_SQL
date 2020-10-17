@@ -1,3 +1,5 @@
+# Module 3 Week 2 Graded Lab directions
+
 ### Setup
 
 1. Add the `data-to-insights` project to your BigQuery project (https://console.cloud.google.com/bigquery?p=data-to-insights&page=ecommerce)
