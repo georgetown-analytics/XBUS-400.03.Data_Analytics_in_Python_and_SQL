@@ -19,19 +19,20 @@ Leatherette Journal|	36
 Gunmetal Roller Ball Pen|	36
 
 
-2. Determine the total views per referring site by counting `product_views` per `channelGrouping`.
+2. Determine the total views per referring site by aggregating `pageviews` per `channelGrouping`.
 
 
-unique_visitors	|channelGrouping
----|---
-38101|	Social
-57308|	Referral
-11865|	Paid Search
-211993|	Organic Search
-3067	|Display
-75688	|Direct
-5966	|Affiliates
-62	|(Other)
+f0_ |	channelGrouping
+--- | ---
+15361488|	Social
+113238990|	Referral
+18569060|	Paid Search
+179185663|	Organic Search
+4168902	|Display
+85731192|	Direct
+2872532	|Affiliates
+34789	|(Other)
+
 
 
 3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured?
