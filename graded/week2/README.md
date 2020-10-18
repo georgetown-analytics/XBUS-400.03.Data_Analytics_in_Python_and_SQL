@@ -35,7 +35,7 @@ f0_ |	channelGrouping
 
 
 
-3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured?
+3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured? *Use the categories table to get the category groups, NOT v2ProductCategory.*
 
 
 the_count	|category
@@ -45,7 +45,7 @@ the_count	|category
 27610	|Home/Nest/
 
 
-4. How many pageviews were for which denominations of gift cards? Assume that `v2ProductName` should contain "Gift Card" and sessions with type="PAGE" should be counted. Note that more than one pageview can happen per session!
+4. How many pageviews were for which denominations of gift cards? Assume that `v2ProductName` should contain "Gift Card" and sessions with type="PAGE" should be counted. Note that more than one pageview can happen per session so you will need to *add them up*, not just *count the records*.
 
 v2ProductName	| f0_ 
 --|--
