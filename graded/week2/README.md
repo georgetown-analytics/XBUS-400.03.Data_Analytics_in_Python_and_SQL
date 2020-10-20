@@ -35,7 +35,7 @@ f0_ |	channelGrouping
 
 
 
-3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured? *Use the categories table to get the category groups, NOT v2ProductCategory.*
+3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured? Connect the records in `all_sessions` to the `category` table based on the fact that `productSKU` is a foreign key between them. *Please do NOT use v2ProductCategory which is in the all_sessions table, we are working on JOINs!*
 
 
 the_count	|category
@@ -45,7 +45,9 @@ the_count	|category
 27610	|Home/Nest/
 
 
-4. How many pageviews were for which denominations of gift cards? Assume that `v2ProductName` should contain "Gift Card" and sessions with type="PAGE" should be counted. Note that more than one pageview can happen per session so you will need to *add them up*, not just *count the records*.
+4. How many `pageviews` were for which denominations of gift cards? Use the `all_sessions` table to find this out. Use the fact that `all_session.v2ProductName` contains the word "Gift Card" in it to limit your calculation agiainst records that are for Gift Card products. In addition, restrict your query to sessions where `all_session.type` exactly matches the string `"PAGE"`. Note that more than one pageview can happen per session so you will need to *add them up*, not just *count the resulting records*.
+
+*Note: Because there is no ORDER BY, your answer might be in a different order, and that is ok!*
 
 v2ProductName	| f0_ 
 --|--
