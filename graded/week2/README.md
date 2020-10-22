@@ -35,7 +35,7 @@ f0_ |	channelGrouping
 
 
 
-3. What are the 3 top performing product categories in terms of how many `eCommerce_option="Payment"` sessions occured? Connect the records in `all_sessions` to the `category` table based on the fact that `productSKU` is a foreign key between them. *Please do NOT use v2ProductCategory which is in the all_sessions table, we are working on JOINs!*
+3. What are the 3 top performing product categories? Consider a product to be high performing if it has many session records with the `eCommerceAction_option` column matching the value `"Payment"`. Connect the records in `all_sessions` to the `category` table based on the fact that `productSKU` is a foreign key between them to aggregate them by category. *Please do NOT use v2ProductCategory which is in the all_sessions table, we are working on JOINs!*
 
 
 the_count	|category
